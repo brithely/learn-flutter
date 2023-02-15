@@ -55,3 +55,40 @@ OS의 네이티브한 버튼들을 사용하면서 만들고 싶다고 한다면
 오히려 아주 세밀한 디자인과 모든 요소들을 커스터마이징하게 사용한다면,  Flutter에서 더 쉽고 빠르게 만들수 있다. ex) Wonderous 앱 확인
 
 -> iOS, 안드로이드 스러운 앱을 만들고 싶지 않다면 추천한다. 커스텀UI의 디자인을 가진 앱
+
+
+# 2 HELLO FLUTTER
+
+## 0.Installation
+
+Flutter SDK
+
+니코는 SDK 방식이 싫다. 그래서 다른 방식으로 설치
+
+Windows에서는 chocolatey를 사용
+
+자세한 설치는 chocolatey[https://chocolatey.org/]
+
+```
+choco install flutter
+```
+
+Mac에서는 Homebrew를 사용
+```
+brew install --cask flutter
+```
+
+웹 개발은 바로 할 수 있다. 브라우저가 있기 때문에
+
+- 안드로이드 개발을 하려면 안드로이드 시뮬레이터 설치
+- iOS 개발을 하려면 iOS 시뮬레이터를 설치 - 맥만 가능
+
+## 1.Dart Pad
+[DartPad](https://dartpad.dev/)
+만약 설치하기 힘든 상황이면 dartpad를 사용해서 개발할 수 있다.
+Flutter도 사용이 가능하기 때문에 샘플 개발을 해볼 수 있다.
+ 하지만 다른 파일을 만들수는 없기 때문에 한페이지에서 개발을 해야한다
+
+## 2.Running Flutter
+toonflix -> [README.md](https://github.com/brithely/learn-flutter/blob/main/toonflix/README.md) 정리
+ 
