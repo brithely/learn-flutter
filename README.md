@@ -91,4 +91,6 @@ Flutter도 사용이 가능하기 때문에 샘플 개발을 해볼 수 있다.
 
 ## 2.Running Flutter
 toonflix -> [README.md](https://github.com/brithely/learn-flutter/blob/main/toonflix/README.md) 정리
- 
+
+# 3.UI CHALLENGE
+toonflix -> [README.md](https://github.com/brithely/learn-flutter/blob/main/toonflix/README.md#3ui-challenge) 정리
