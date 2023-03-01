@@ -99,3 +99,4 @@ toonflix -> [README.md](https://github.com/brithely/learn-flutter/blob/main/toon
 toonflix -> [README.md](https://github.com/brithely/learn-flutter/blob/main/toonflix/README.md) 정리
 
 # 5.POMODORO APP
+pomodoro -> [README.md](https://github.com/brithely/learn-flutter/blob/main/pomodoro/README.md) 정리
