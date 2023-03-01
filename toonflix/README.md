@@ -127,3 +127,29 @@ User Settings Json 추가
 
 ## 9.Code Challenge
 - order라는 프로퍼티를 사용해서 만들어보자
+
+
+# 4.STATEFUL WIDGETS
+
+## 0.State
+- 현재 상태가 저장되는 걸 stateful이라고 부른다. 상태에 따라 UI가 변경되는 걸 확인 할 수 있다.
+- 현재 상태를 저장하지 않는걸 stateless라고 한다.
+
+## 1.setState
+- setState 함수는 상태가 변경되는걸 알려주는 역할을 한다
+- setState는 기본적으로 build 함수를 다시 호출한다. -> UI를 업데이트 하는 역할
+
+## 2.Recap
+- setState를 사용하지 않으면 실제로 상태가 변하더라도 반영되지 않는다.
+
+## 3.BuildContext
+- 앱의 모든 스타일을 한곳에서 지정할 수 있는 기능을 제공
+- 색상, 크기, 글자 등을 지정할 수 있다. 복붙을 할 필요 없다.
+- 위젯트리 -> Root(App) -> MaterialApp -> Scaffold 식으로 되어 있다.
+- context는 위젯 트리 위에 있는 트리 정보들이 들어있다.
+- 이것을 통해 상위 위젯의 context에 접근이 가능하다.
+
+## 4.WidgetLifecycle
+- initState가 대부분은 필요가 없지만, 부모 요소에 의존적일 경우에는 필요하다.
+- initState는 무조건 build보다 먼저 호출 되어야 하면 한번만 호출 되어야 한다.
+- dispose는 위젯이 화면에서 사라질때 호출이 된다 -> 이러한거를 위젯 라이프사이클이라 부른다.
