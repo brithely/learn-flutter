@@ -65,3 +65,31 @@ https://webtoon-crawler.nomadcoders.workers.dev/
 - MaterialPageRoute : 하나의 페이지 처럼 보여준다
 - fullscreenDialog를 통해 새로운 페이지를 떠지는것처럼 보여줄수 있다.
 - Scaffold를 Detail에 같이 사용하면 자동으로 뒤로가기 버튼도 만들어준다
+
+## 10.Hero
+- Hero : id를 통해 여러 화면에 걸쳐 애니메이션을 줄 수 있다. -> 새로운 지점으로 이동하는것처럼 보여준다.
+
+## 12.ApiService
+- list를 만들던거과 같이 동일하게 작업
+
+## 13.Futures
+- stateful widget에서 widget의 데이터를 접근하기 위해서는 widget을 입력해주면 된다
+
+## 14.Detail Info
+- 기존에 이용했던 위젯을 통해 만듬
+
+## 15.Episodes
+- 아무 처리를 하지 않을때 그냥 Container를 return 한다
+- List, ListView는 리스트의 양이 엄청 많거나 최적화가 필요할때 사용한다. 10개정도는 그냥 Column을 사용해도 된다
+- SingleChildScrollView로 overflow된 데이터를 스크롤 가능하게 만들어 줄수 있다.
+
+## 16.Url Launcher
+- url_launcher는 flutter에서 브라우저를 열수 있도록 해주는 라이브러리이다
+- 해당 라이브러리를 사용하기 위해서 config가 필요한데, 안드로이드, ios 따로 scheme을 설정해주어야 한다
+- flutter 밖의 설정 파일을 수정한 경우에는 다시 rebuild를 하는게 중요하다
+- hot reloading는 dart 코드가 수정 되엇을때만 가능하다
+- 갑자기 cocoapods 에러가 발생햇는데, 재설치 해서 해결
+
+## 17.Favorites
+- shared_preferences 라는 flutter 팀에서 만든 라이브러리로 내부 저장소 사용 가능
+- 위의 반복되는 이야기로 라이브러리를 새로 설치 했다면 재시작을 해주어야 한다
